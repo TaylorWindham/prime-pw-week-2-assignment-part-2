@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We make a variable called name and set it to the word "Dane" which is a string.
+// Next we check if it is equal to Mary then we console.log "Hi Mary!".
+// Everyone else we console.log "How do you do?".
 //
 
 //CODE
@@ -45,11 +45,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
-
+// We make a varibale called secret.
+// We make a variable called code and set it to 123.
+// Next we check if the code variable is equally to 123, 
+// and if it is then we set the variable secret to "super" and the variable code is multiplied by 2.  
+// Then we check if the variable code is greater than 250,
+// and if it is then we set the variable secret to "duper" 
+// Then we console log("super").
 //CODE
 /*
 let secret;
@@ -70,11 +72,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
-
+// We make several variables called isStudent,age,zip, and set them to true,34,55407.
+// If isStudent is true and zip is greater than 80000 we console log "You're a student on the West Coast!".
+// Else if isStudent is false or age is less than 30 we console log "What are your hobbies".
+// Else if isStudent is true we console log "Welcome to Prime!".
+// Everything else we console log "How about the weather?".
 //CODE
 /*
 let isStudent = true;
@@ -128,7 +130,10 @@ if (number >= 2) {
 //4. We start with three variables -- colorOne is set to 'blue' and 
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
+//
 
+/*FIX - colorOne is red but instructions say set it to blue and colorTwo is blue and instructions say to set it to red.
+// and if its true colorOne and colorTwo should be set to purple which only colorOne is set.
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -143,6 +148,7 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
+//FIX- time is set as a const when it should be a let, and the compoind conditional should be joiond by 2 && rather than the or "||"
 /*
 let temp = 40;
 const time = 4;
@@ -166,4 +172,4 @@ if(minAge <= age) {
   console.log('enter');
 }
 */
-
+// FIX- Swap the console log messages so enter is first and no entry is last.
