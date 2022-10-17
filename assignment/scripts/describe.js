@@ -148,7 +148,7 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
-//FIX- time is set as a const when it should be a let, and the compoind conditional should be joiond by 2 && rather than the or "||"
+//*FIX- time is set as a const when it should be a let, and the compoind conditional should be joiond by 2 && rather than the or "||"
 /*
 let temp = 40;
 const time = 4;
@@ -172,4 +172,4 @@ if(minAge <= age) {
   console.log('enter');
 }
 */
-// FIX- Swap the console log messages so enter is first and no entry is last.
+//*FIX- Swap the console log messages so enter is first and no entry is last.
